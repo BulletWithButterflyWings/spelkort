@@ -5,7 +5,7 @@ print("Hej och välkommen till mitt spelprogram!") # Skriver ut den text som har
 print("Nu måste du gissa ett tal, och hoppas att det är rätt! ") # Skriver ut den text som har angivits (print).
  
 while rätt !=0: # 
-    guess= input("Gissa ett tal mellan 1-10 : ") #
+    guess= input("Gissa ett tal mellan 1-10 : ") # 
     number=random.randint(1,10) # Skriver ut ett slumpat nummer, mellan 1-10.
     print(number) # Självaste kommandot för slumpade tal.
     if int(guess) == number : # 
